@@ -4,4 +4,6 @@ import { Transmissible } from "./transmissible";
 export abstract class NetworkEntity extends Entity {
   abstract update(tick: number): void;
   abstract store(data: Transmissible, tick: number): boolean;
+  abstract getSinks(): NetworkEntity[];
+  abstract getContent(): string;
 }

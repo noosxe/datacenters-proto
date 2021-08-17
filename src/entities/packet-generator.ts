@@ -51,4 +51,12 @@ export class PacketGenerator extends NetworkEntity {
     // PacketGenerators can't receive anything.
     return false;
   }
+
+  getSinks(): NetworkEntity[] {
+    return this.sink ? [this.sink] : [];
+  }
+
+  getContent(): string {
+    return 'empty';
+  }
 }

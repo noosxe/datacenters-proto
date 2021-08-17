@@ -13,4 +13,8 @@ export class Packet extends Transmissible {
     super(tick, expiration);
     this.type = type;
   }
+
+  toString(): string {
+    return `Packet of type ${this.type}`
+  }
 }

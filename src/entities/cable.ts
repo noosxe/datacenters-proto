@@ -53,4 +53,12 @@ export class Cable extends NetworkEntity {
 
     return true;
   }
+
+  getSinks(): NetworkEntity[] {
+    return this.sink ? [this.sink] : [];
+  }
+
+  getContent(): string {
+    return this.contents?.toString() ?? 'empty';
+  }
 }

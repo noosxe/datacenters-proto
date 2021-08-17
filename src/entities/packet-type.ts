@@ -1,3 +1,3 @@
 export enum PacketType {
-  HEAD,
+  HEAD = 'HEAD',
 }

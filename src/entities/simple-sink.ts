@@ -45,4 +45,12 @@ export class SimpleSink extends NetworkEntity {
 
     return true;
   }
+
+  getSinks(): NetworkEntity[] {
+    return [];
+  }
+
+  getContent(): string {
+    return this.contents?.toString() ?? 'empty';
+  }
 }
