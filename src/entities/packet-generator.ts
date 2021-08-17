@@ -35,14 +35,14 @@ export class PacketGenerator extends NetworkEntity {
     // If this is the first time this generates a packet or the time has come then try to generate.
     if (this.lastTick === undefined || tick >= (this.lastTick + this.latency)) {
       const packet = new Packet(PacketType.HEAD, tick, PACKET_EXPIRATION_TICKS);
-      console.log('[PACKET_GENERATOR] generated a packet');
+      console.debug('[PACKET_GENERATOR] generated a packet');
 
       // Try to pass the new packet to the sink.
       if (this.sink.store(packet, tick)) {
         this.lastTick = tick;
-        console.log('[PACKET_GENERATOR] sent the packet');
+        console.debug('[PACKET_GENERATOR] sent the packet');
       } else {
-        console.log('[PACKET_GENERATOR] failed to send the packet');
+        console.debug('[PACKET_GENERATOR] failed to send the packet');
       }
     }
   }

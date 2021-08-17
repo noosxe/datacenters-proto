@@ -31,7 +31,7 @@ export class SimpleSink extends NetworkEntity {
     if (tick >= (this.updateTick + this.latency)) {
       this.contents = undefined;
       this.updateTick = undefined;
-      console.log('[SIMPLE_SINK] consumed a packet');
+      console.debug('[SIMPLE_SINK] consumed a packet');
     }
   }
 

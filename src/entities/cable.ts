@@ -37,8 +37,9 @@ export class Cable extends NetworkEntity {
     // If contents are old enough then we can pass it along.
     if (tick >= (this.storeTick + this.latency)) {
       if (this.sink.store(this.contents, tick)) {
-      this.contents = undefined;
-      this.storeTick = undefined;
+        this.contents = undefined;
+        this.storeTick = undefined;
+        console.debug('[CABLE] passed the packet');
       }
     }
   }
