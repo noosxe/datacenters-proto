@@ -5,6 +5,7 @@ import { PacketGenerator } from './entities/packet-generator';
 import { SimpleSink } from './entities/simple-sink';
 import { BasicCable } from './entities/basic-cable';
 import { NetworkEntity } from './entities/network-entity';
+import { Canvas } from './canvas';
 
 const sink = new SimpleSink(5);
 const cable = new BasicCable();
@@ -92,6 +93,7 @@ requestAnimationFrame(upd);
 function App() {
   return (
     <div className="App">
+      <Canvas />
     </div>
   );
 }
