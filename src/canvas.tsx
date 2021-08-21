@@ -14,28 +14,28 @@ const createScene = function(engine: Engine, canvas: HTMLCanvasElement){
   // Attach the camera to the canvas
   camera.attachControl(canvas, false);
   // Create a basic light, aiming 0, 1, 0 - meaning, to the sky
-  const light = new HemisphericLight('light1', new Vector3(0, 1, 0), scene);
+  new HemisphericLight('light1', new Vector3(0, 1, 0), scene);
   // Create a built-in "sphere" shape; its constructor takes 6 params: name, segment, diameter, scene, updatable, sideOrientation
   const sphere = Mesh.CreateSphere('sphere1', 16, 2, scene, false, Mesh.FRONTSIDE);
   // Move the sphere upward 1/2 of its height
   sphere.position.y = 1;
   // Create a built-in "ground" shape; its constructor takes 6 params : name, width, height, subdivision, scene, updatable
-  const ground = Mesh.CreateGround('ground1', 6, 6, 2, scene, false);
+  Mesh.CreateGround('ground1', 6, 6, 2, scene, false);
   // Return the created scene
   return scene;
 }
 
 export const Canvas = () => {
   const ref = React.useRef<HTMLCanvasElement>(null);
-  const [engine, setEngine] = React.useState<Engine>();
+  // const [engine, setEngine] = React.useState<Engine>();
 
   React.useEffect(() => {
     if (ref.current) {
       const eng = new Engine(ref.current, true, {preserveDrawingBuffer: true, stencil: true});
-      setEngine(eng);
+      // setEngine(eng);
 
       const scene = createScene(eng, ref.current);
-      eng.runRenderLoop(function(){
+      eng.runRenderLoop(() => {
         scene.render();
     });
     }
