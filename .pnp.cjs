@@ -11420,7 +11420,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["he", "npm:1.2.0"],\
             ["param-case", "npm:3.0.4"],\
             ["relateurl", "npm:0.2.7"],\
-            ["terser", "npm:5.14.0"]\
+            ["terser", "npm:5.15.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17063,7 +17063,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-worker", "npm:26.6.2"],\
             ["rollup", "npm:2.75.5"],\
             ["serialize-javascript", "npm:4.0.0"],\
-            ["terser", "npm:5.14.0"]\
+            ["terser", "npm:5.15.1"]\
           ],\
           "packagePeers": [\
             "@types/rollup",\
@@ -18240,10 +18240,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["terser", [\
-        ["npm:5.14.0", {\
-          "packageLocation": "./.yarn/cache/terser-npm-5.14.0-504dd19512-9bce919c17.zip/node_modules/terser/",\
+        ["npm:5.15.1", {\
+          "packageLocation": "./.yarn/cache/terser-npm-5.15.1-63dec1247d-9880a1e095.zip/node_modules/terser/",\
           "packageDependencies": [\
-            ["terser", "npm:5.14.0"],\
+            ["terser", "npm:5.15.1"],\
             ["@jridgewell/source-map", "npm:0.3.2"],\
             ["acorn", "npm:8.7.1"],\
             ["commander", "npm:2.20.3"],\
@@ -18274,7 +18274,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-worker", "npm:27.5.1"],\
             ["schema-utils", "npm:3.1.1"],\
             ["serialize-javascript", "npm:6.0.0"],\
-            ["terser", "npm:5.14.0"],\
+            ["terser", "npm:5.15.1"],\
             ["uglify-js", null],\
             ["webpack", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:5.73.0"]\
           ],\
