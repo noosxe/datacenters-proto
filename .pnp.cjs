@@ -138,7 +138,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gensync", "npm:1.0.0-beta.2"],\
             ["json5", "npm:2.2.1"],\
             ["lodash", "npm:4.17.21"],\
-            ["semver", "npm:5.7.1"],\
+            ["semver", "npm:5.7.2"],\
             ["source-map", "npm:0.5.7"]\
           ],\
           "linkType": "HARD"\
@@ -296,7 +296,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-validator-option", "npm:7.12.17"],\
             ["@types/babel__core", null],\
             ["browserslist", "npm:4.21.4"],\
-            ["semver", "npm:5.7.1"]\
+            ["semver", "npm:5.7.2"]\
           ],\
           "packagePeers": [\
             "@babel/core",\
@@ -4311,7 +4311,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/types", "npm:7.12.17"],\
             ["@types/babel__core", null],\
             ["core-js-compat", "npm:3.9.0"],\
-            ["semver", "npm:5.7.1"]\
+            ["semver", "npm:5.7.2"]\
           ],\
           "packagePeers": [\
             "@babel/core",\
@@ -8775,7 +8775,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-modules-scope", "virtual:83aabf2fc5b4783f9da41f225e9135963d25885c9d14703c4fbb477fc33a68b13df040b5b13ae524629f930cad4e56234b9be07395a235d68f5e7a5fd36a4d4d#npm:3.0.0"],\
             ["postcss-modules-values", "virtual:83aabf2fc5b4783f9da41f225e9135963d25885c9d14703c4fbb477fc33a68b13df040b5b13ae524629f930cad4e56234b9be07395a235d68f5e7a5fd36a4d4d#npm:4.0.0"],\
             ["postcss-value-parser", "npm:4.2.0"],\
-            ["semver", "npm:7.3.5"],\
+            ["semver", "npm:7.3.7"],\
             ["webpack", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:5.76.1"]\
           ],\
           "packagePeers": [\
@@ -10859,7 +10859,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["memfs", "npm:3.4.4"],\
             ["minimatch", "npm:3.0.4"],\
             ["schema-utils", "npm:2.7.0"],\
-            ["semver", "npm:7.3.4"],\
+            ["semver", "npm:7.3.7"],\
             ["tapable", "npm:1.1.3"],\
             ["typescript", null],\
             ["vue-template-compiler", null],\
@@ -12782,7 +12782,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-util", "npm:27.5.1"],\
             ["natural-compare", "npm:1.4.0"],\
             ["pretty-format", "npm:27.5.1"],\
-            ["semver", "npm:7.3.4"]\
+            ["semver", "npm:7.3.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -13835,7 +13835,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["nopt", "npm:5.0.0"],\
             ["npmlog", "npm:4.1.2"],\
             ["rimraf", "npm:3.0.2"],\
-            ["semver", "npm:7.3.5"],\
+            ["semver", "npm:7.3.7"],\
             ["tar", "npm:6.1.12"],\
             ["which", "npm:2.0.2"]\
           ],\
@@ -15176,7 +15176,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cosmiconfig", "npm:7.0.0"],\
             ["klona", "npm:2.0.5"],\
             ["postcss", "npm:8.4.14"],\
-            ["semver", "npm:7.3.5"],\
+            ["semver", "npm:7.3.7"],\
             ["webpack", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:5.76.1"]\
           ],\
           "packagePeers": [\
@@ -16585,7 +16585,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["resolve", "patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"],\
             ["resolve-url-loader", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:4.0.0"],\
             ["sass-loader", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:12.6.0"],\
-            ["semver", "npm:7.3.5"],\
+            ["semver", "npm:7.3.7"],\
             ["source-map-loader", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:3.0.1"],\
             ["style-loader", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:3.3.1"],\
             ["tailwindcss", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:3.0.24"],\
@@ -17219,10 +17219,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["semver", [\
-        ["npm:5.7.1", {\
-          "packageLocation": "./.yarn/cache/semver-npm-5.7.1-40bcea106b-57fd0acfd0.zip/node_modules/semver/",\
+        ["npm:5.7.2", {\
+          "packageLocation": "./.yarn/cache/semver-npm-5.7.2-938ee91eaa-fb4ab5e0dd.zip/node_modules/semver/",\
           "packageDependencies": [\
-            ["semver", "npm:5.7.1"]\
+            ["semver", "npm:5.7.2"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -17237,22 +17237,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/semver-npm-7.0.0-218e8c00ca-272c11bf8d.zip/node_modules/semver/",\
           "packageDependencies": [\
             ["semver", "npm:7.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:7.3.4", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.3.4-4c3baf0ead-96451bfd7c.zip/node_modules/semver/",\
-          "packageDependencies": [\
-            ["semver", "npm:7.3.4"],\
-            ["lru-cache", "npm:6.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:7.3.5", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.3.5-618cf5db6a-5eafe6102b.zip/node_modules/semver/",\
-          "packageDependencies": [\
-            ["semver", "npm:7.3.5"],\
-            ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
         }],\
