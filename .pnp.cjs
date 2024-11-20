@@ -8844,10 +8844,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["cross-spawn", [\
-        ["npm:7.0.3", {\
-          "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-671cc7c728.zip/node_modules/cross-spawn/",\
+        ["npm:7.0.6", {\
+          "packageLocation": "./.yarn/cache/cross-spawn-npm-7.0.6-264bddf921-8d306efaca.zip/node_modules/cross-spawn/",\
           "packageDependencies": [\
-            ["cross-spawn", "npm:7.0.3"],\
+            ["cross-spawn", "npm:7.0.6"],\
             ["path-key", "npm:3.1.1"],\
             ["shebang-command", "npm:2.0.0"],\
             ["which", "npm:2.0.2"]\
@@ -10209,7 +10209,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@humanwhocodes/config-array", "npm:0.9.5"],\
             ["ajv", "npm:6.12.6"],\
             ["chalk", "npm:4.1.0"],\
-            ["cross-spawn", "npm:7.0.3"],\
+            ["cross-spawn", "npm:7.0.6"],\
             ["debug", "virtual:1f3c51be25fef20e854261431be23d317093b3b463e81e911f4f45a636ff582620db066c9d2a5922a428e07e10fe4788eee8196c796ce2c9bd49d22743fec207#npm:4.3.4"],\
             ["doctrine", "npm:3.0.0"],\
             ["escape-string-regexp", "npm:4.0.0"],\
@@ -10757,7 +10757,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/execa-npm-5.1.1-191347acf5-fba9022c8c.zip/node_modules/execa/",\
           "packageDependencies": [\
             ["execa", "npm:5.1.1"],\
-            ["cross-spawn", "npm:7.0.3"],\
+            ["cross-spawn", "npm:7.0.6"],\
             ["get-stream", "npm:6.0.1"],\
             ["human-signals", "npm:2.1.0"],\
             ["is-stream", "npm:2.0.0"],\
@@ -16764,7 +16764,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["address", "npm:1.2.0"],\
             ["browserslist", "npm:4.21.4"],\
             ["chalk", "npm:4.1.2"],\
-            ["cross-spawn", "npm:7.0.3"],\
+            ["cross-spawn", "npm:7.0.6"],\
             ["detect-port-alt", "npm:1.1.6"],\
             ["escape-string-regexp", "npm:4.0.0"],\
             ["filesize", "npm:8.0.7"],\
