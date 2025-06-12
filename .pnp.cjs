@@ -4655,12 +4655,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@babel/runtime-corejs3", [\
-        ["npm:7.12.18", {\
-          "packageLocation": "./.yarn/cache/@babel-runtime-corejs3-npm-7.12.18-1a36abb613-9c1fa045e5.zip/node_modules/@babel/runtime-corejs3/",\
+        ["npm:7.27.6", {\
+          "packageLocation": "./.yarn/cache/@babel-runtime-corejs3-npm-7.27.6-1ace418c14-d3cf5bc834.zip/node_modules/@babel/runtime-corejs3/",\
           "packageDependencies": [\
-            ["@babel/runtime-corejs3", "npm:7.12.18"],\
-            ["core-js-pure", "npm:3.9.0"],\
-            ["regenerator-runtime", "npm:0.13.7"]\
+            ["@babel/runtime-corejs3", "npm:7.27.6"],\
+            ["core-js-pure", "npm:3.43.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7491,7 +7490,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["aria-query", "npm:4.2.2"],\
             ["@babel/runtime", "npm:7.27.6"],\
-            ["@babel/runtime-corejs3", "npm:7.12.18"]\
+            ["@babel/runtime-corejs3", "npm:7.27.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -8823,10 +8822,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:3.9.0", {\
-          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.9.0-fed8ed49b8/node_modules/core-js-pure/",\
+        ["npm:3.43.0", {\
+          "packageLocation": "./.yarn/unplugged/core-js-pure-npm-3.43.0-53f2b0c78d/node_modules/core-js-pure/",\
           "packageDependencies": [\
-            ["core-js-pure", "npm:3.9.0"]\
+            ["core-js-pure", "npm:3.43.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17043,13 +17042,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["regenerator-runtime", [\
-        ["npm:0.13.7", {\
-          "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.7-41bcbe64ea-52b66e6669.zip/node_modules/regenerator-runtime/",\
-          "packageDependencies": [\
-            ["regenerator-runtime", "npm:0.13.7"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:0.13.9", {\
           "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.9-6d02340eec-65ed455fe5.zip/node_modules/regenerator-runtime/",\
           "packageDependencies": [\
