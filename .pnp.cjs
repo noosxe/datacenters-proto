@@ -156,7 +156,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["debug", "virtual:4758feee42453c0e31b0d2032a7b1362d6b06281699830d2da9a056f2cca72bd2c5cfdb74005fdf03a64876be8eaca2dd7b0fc2dc59d14318badf19cb22ba18e#npm:4.3.1"],\
             ["gensync", "npm:1.0.0-beta.2"],\
             ["json5", "npm:2.2.1"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["semver", "npm:5.7.2"],\
             ["source-map", "npm:0.5.7"]\
           ],\
@@ -629,7 +629,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/template", "npm:7.12.13"],\
             ["@babel/traverse", "npm:7.23.2"],\
             ["@babel/types", "npm:7.12.17"],\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.17.23"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -4731,7 +4731,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/types", "npm:7.12.17"],\
             ["@babel/helper-validator-identifier", "npm:7.12.11"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["to-fast-properties", "npm:2.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -6048,7 +6048,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css", "npm:3.0.0"],\
             ["css.escape", "npm:1.5.1"],\
             ["dom-accessibility-api", "npm:0.5.7"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["redent", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -10424,7 +10424,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/babel__plugin-transform-react-jsx", null],\
             ["@types/eslint", null],\
             ["eslint", "npm:8.17.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["string-natural-compare", "npm:3.0.1"]\
           ],\
           "packagePeers": [\
@@ -11851,7 +11851,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/html-minifier-terser", "npm:6.1.0"],\
             ["@types/webpack", null],\
             ["html-minifier-terser", "npm:6.1.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["pretty-error", "npm:4.0.0"],\
             ["tapable", "npm:2.2.1"],\
             ["webpack", "virtual:951d266cc4e48a9f6073afc9b5813006cf226b0bccef0712088aa67190ea3703c23c9237307df94293524c02174e850a561990fc51830a88d50b1efaf0a23ae8#npm:5.94.0"]\
@@ -13701,10 +13701,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["lodash", [\
-        ["npm:4.17.21", {\
-          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
+        ["npm:4.17.23", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.17.23-50bdb1c01a-7daad39758.zip/node_modules/lodash/",\
           "packageDependencies": [\
-            ["lodash", "npm:4.17.21"]\
+            ["lodash", "npm:4.17.23"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -16620,7 +16620,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/pretty-error-npm-4.0.0-7cca1fe4ad-a5b9137365.zip/node_modules/pretty-error/",\
           "packageDependencies": [\
             ["pretty-error", "npm:4.0.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["renderkid", "npm:3.0.0"]\
           ],\
           "linkType": "HARD"\
@@ -17291,7 +17291,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-select", "npm:4.3.0"],\
             ["dom-converter", "npm:0.2.0"],\
             ["htmlparser2", "npm:6.1.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["strip-ansi", "npm:6.0.1"]\
           ],\
           "linkType": "HARD"\
@@ -19686,7 +19686,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/whatwg-url-npm-8.7.0-67af66db8f-a87abcc6ce.zip/node_modules/whatwg-url/",\
           "packageDependencies": [\
             ["whatwg-url", "npm:8.7.0"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["tr46", "npm:2.1.0"],\
             ["webidl-conversions", "npm:6.1.0"]\
           ],\
@@ -19783,7 +19783,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fast-json-stable-stringify", "npm:2.1.0"],\
             ["fs-extra", "npm:9.1.0"],\
             ["glob", "npm:7.1.6"],\
-            ["lodash", "npm:4.17.21"],\
+            ["lodash", "npm:4.17.23"],\
             ["pretty-bytes", "npm:5.6.0"],\
             ["rollup", "npm:2.79.2"],\
             ["rollup-plugin-terser", "virtual:e56c93d4807b119fc39acdc3c7d817bb97c14eecfcc5ac3cacf00abcb8807aa4c6d335efa7791a6e2c44eb32ba4e423de370df28520c36179012f45200bccff9#npm:7.0.2"],\
