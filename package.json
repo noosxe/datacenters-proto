@@ -10,11 +10,11 @@
     "@types/node": "^25.0.10",
     "@types/react": "^19.2.9",
     "@types/react-dom": "^19.2.3",
-    "babylonjs": "^8.47.0",
+    "babylonjs": "^9.0.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "react-scripts": "5.0.1",
-    "typescript": "^5.9.3",
+    "typescript": "^6.0.2",
     "web-vitals": "^5.1.0"
   },
   "scripts": {
